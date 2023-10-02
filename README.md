@@ -6,9 +6,13 @@ Este repositorio contiene el código y los archivos relacionados con el rediseñ
 
 Dumax ofrece a sus clientes la posibilidad de monitorear en tiempo real las unidades vehiculares a lo largo del año. El objetivo de este proyecto es mejorar el diseño y la experiencia del usuario en la plataforma web, comenzando con el informe de geocercas.
 
-## Captura de Pantalla
+## Imagen base para crear el rediseño
 
 ![Informe de Geocercas](https://firebasestorage.googleapis.com/v0/b/dumax-eld.appspot.com/o/Dashboard%20-%20Reporte%20Geocercas%402x.jpg?alt=media&token=67f66e66-8aad-424e-a4b5-ff86a7517b15)
+
+## Captura de pantalla del resultado final 
+
+![image](https://github.com/SofiDubrowsky/dumax-challenge/assets/94505828/4834778a-94e5-4527-8bfd-4aea919dd7f9)
 
 ## Instrucciones de Instalación
 
