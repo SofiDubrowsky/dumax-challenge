@@ -42,7 +42,7 @@ Para instalar y ejecutar este proyecto localmente, sigue estos pasos:
 
 ## Documentación de la API
 
-Puedes encontrar la documentación de la API utilizada en este proyecto en este [enlace](https://documenter.getpostman.com/view/16647194/2s9YJXYQDh)https://documenter.getpostman.com/view/16647194/2s9YJXYQDh.
+Puedes encontrar la documentación de la API utilizada en este proyecto en este [enlace](https://documenter.getpostman.com/view/16647194/2s9YJXYQDh)
 
 ## Criterios de Aceptación
 
