@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Rediseño de la Plataforma Dumax
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este repositorio contiene el código y los archivos relacionados con el rediseño de la plataforma web de Dumax, específicamente el "Informe de Geocercas".
 
-## Available Scripts
+## Descripción del Proyecto
 
-In the project directory, you can run:
+Dumax ofrece a sus clientes la posibilidad de monitorear en tiempo real las unidades vehiculares a lo largo del año. El objetivo de este proyecto es mejorar el diseño y la experiencia del usuario en la plataforma web, comenzando con el informe de geocercas.
 
-### `npm start`
+## Imagen base para crear el rediseño
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Informe de Geocercas](https://firebasestorage.googleapis.com/v0/b/dumax-eld.appspot.com/o/Dashboard%20-%20Reporte%20Geocercas%402x.jpg?alt=media&token=67f66e66-8aad-424e-a4b5-ff86a7517b15)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Captura de pantalla del resultado final 
 
-### `npm test`
+![image](https://github.com/SofiDubrowsky/dumax-challenge/assets/94505828/4834778a-94e5-4527-8bfd-4aea919dd7f9)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Instrucciones de Instalación
 
-### `npm run build`
+Para instalar y ejecutar este proyecto localmente, sigue estos pasos:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clona este repositorio en tu máquina local:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   git clone https://github.com/SofiDubrowsky/dumax-challenge.git)https://github.com/SofiDubrowsky/dumax-challenge.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Navega al directorio del proyecto:
 
-### `npm run eject`
+   ```bash
+   cd dumax-challenge
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Instala las dependencias utilizando npm:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Inicia el proyecto:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   npm start
 
-## Learn More
+5. Abre tu navegador web y ve a `http://localhost:3000` para ver la aplicación en funcionamiento.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Documentación de la API
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Puedes encontrar la documentación de la API utilizada en este proyecto en este [enlace](https://documenter.getpostman.com/view/16647194/2s9YJXYQDh)
 
-### Code Splitting
+## Criterios de Aceptación
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* El menú lateral izquierdo contiene el listado de todos los informes posibles, como se muestra en la imagen base.
+* Los colores, tipografías, imágenes y espacios se han modificado para asemejar la plataforma actual al nuevo diseño.
+* El informe de geocercas permite al usuario seleccionar geocercas, unidades y rangos de fechas para generar un reporte.
+* Al hacer clic en "Generar Reporte", se realiza una solicitud GET al endpoint "Reporte de Geocercas" que devuelve eventos dentro de la geocerca elegida.
+* Los eventos se muestran en una tabla ordenada por fecha de entrada de la unidad.
+* Se proporciona un formulario para crear una nueva geocerca mediante una solicitud POST al endpoint "Crear Geocerca".
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
