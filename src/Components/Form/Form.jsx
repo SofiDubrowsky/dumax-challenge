@@ -71,7 +71,7 @@ const Form = () => {
 
                 <div className={style.field}>
                     <p className={style.label}>Geocerca*</p>
-                    <select name="geocerca" id="geocerca" value={form.geocerca} className={style.inputForm} onChange={handleChange} aria-label="geocerca">
+                    <select name="geocerca" id="geocerca" value={form.geocerca} className={style.inputForm} onChange={handleChange} aria-label="geocerca" data-testid="geocerca">
                         <option value="" disabled selected>Seleccionar una opción</option>
                         <option value="Monterrey">Monterrey</option>
                         <option value="Ciudad de México">Ciudad de México</option>
@@ -85,7 +85,7 @@ const Form = () => {
 
                 <div className={style.field}>
                     <p className={style.label}>Unidades*</p>
-                    <select id="units" name="unidades" value={form.unidades} className={style.inputForm} onChange={handleChange} aria-label="unidades">
+                    <select id="units" name="unidades" value={form.unidades} className={style.inputForm} onChange={handleChange} aria-label="unidades" data-testid="unidades" >
                         <option value="" disabled selected>Seleccionar una opción</option>
                         <option value="Base 1525">Base 1525</option>
                         <option value="Base 1458">Base 1458</option>
@@ -97,21 +97,21 @@ const Form = () => {
 
                 <div className={style.field}>
                     <p className={style.label}>Nombre de la unidad</p>
-                    <input type="text" id="name" name="nombreUnidad" value={form.nombreUnidad} placeholder="" className={style.inputForm} onChange={handleChange} aria-label="nombreUnidad" />
+                    <input type="text" id="name" name="nombreUnidad" value={form.nombreUnidad} placeholder="" className={style.inputForm} onChange={handleChange} data-testid="nombreUnidad" aria-label="nombreUnidad" />
                     {!errors.nombreUnidad && <span className={style.noerror}>p</span>}
                     {errors.nombreUnidad && <span className={style.error}>{errors.nombreUnidad}</span>}
                 </div>
 
                 <div className={style.field}>
                     <p className={style.label}>Licencia del chofer</p>
-                    <input type="number" id="licencia" name="licenciaChofer" value={form.licenciaChofer} placeholder="" className={style.inputForm} onChange={handleChange} aria-label="licenciaChofer"/>
+                    <input type="number" id="licencia" name="licenciaChofer" value={form.licenciaChofer} placeholder="" className={style.inputForm} onChange={handleChange} data-testid="licenciaChofer" aria-label="licenciaChofer"/>
                     {!errors.licenciaChofer && <span className={style.noerror}>p</span>}
                     {errors.licenciaChofer&& <span className={style.error}>{errors.licenciaChofer}</span>}
                 </div>
 
                 <div className={style.field}>
                     <p className={style.label}>Email chofer</p>
-                    <input type="text" id="email" name="emailChofer" value={form.emailChofer} placeholder="" className={style.inputForm} onChange={handleChange} aria-label="emailChofer" />
+                    <input type="text" id="email" name="emailChofer" value={form.emailChofer} placeholder="" className={style.inputForm} onChange={handleChange} data-testid="emailChofer" aria-label="emailChofer" />
                     {!errors.emailChofer && <span className={style.noerror}>p</span>}
                     {errors.emailChofer && <span className={style.error}>{errors.emailChofer}</span>}
                 </div>
